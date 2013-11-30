@@ -1,0 +1,21 @@
+#main-slide {
+    margin-bottom: 1.4rem;
+    .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+#bar{
+    width: 0%;
+    max-width: 100%;
+    height: 4px;
+    background: #646464;
+}
+#progress-bar{
+    width: 100%;
+    background: #ddd;
+}
+// #main-slide .owl-wrapper-outer {
+//     height: 350px;
+// }

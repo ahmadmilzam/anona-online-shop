@@ -1,0 +1,48 @@
+.shop-footer {
+    background-color: #333;
+    padding-top: 50px;
+
+    .block-title {
+        border-bottom: 1px solid #222;
+    }
+
+    .block-title strong span{
+        border-bottom: 2px solid #999;
+    }
+
+    .row-divider, .row-divider-copy {
+        border-top: 1px solid #222;
+    }
+
+    .row-divider > div {
+        background: #999;
+    }
+}
+
+#scroll-top {
+    width: 30px;
+    height: 30px;
+    background: #444;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin-left: -15px;
+    border: 2px solid #999;
+    padding: 5px;
+    font-family: FontAwesome;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: border-color 300ms ease-in-out, background-color 200ms ease-in-out;
+    -webkit-transition: border-color 300ms ease-in-out, background-color 200ms ease-in-out;
+    -moz-transition: border-color 300ms ease-in-out, background-color 200ms ease-in-out;
+    -o-transition: border-color 300ms ease-in-out, background-color 200ms ease-in-out;
+}
+#scroll-top:hover {
+    background-color: #f0877c;
+    border-color: #f0877c;
+    color: #eee !important;
+}
+#scroll-top:before {
+    content: "\f077";
+}

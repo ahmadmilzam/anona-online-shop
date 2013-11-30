@@ -1,0 +1,74 @@
+.text-large {font-size: 120% !important;}
+.text-larger {font-size: 150% !important;}
+.text-largest {font-size: 200% !important;}
+.text-small {font-size: 90% !important;}
+.text-smaller {font-size: 80% !important;}
+.text-smallest {font-size: 70% !important;}
+
+
+::-webkit-input-placeholder {
+    font-family: 'Open Sans', 'FontAwesome', arial, sans;
+    font-size: .8rem;
+}
+::-moz-placeholder {
+    font-family: 'Open Sans', 'FontAwesome', arial, sans;
+    font-size: .8rem;
+} /* firefox 19+ */
+:-ms-input-placeholder {
+    font-family: 'Open Sans', 'FontAwesome', arial, sans;
+    font-size: .8rem;
+} /* ie */
+input:-moz-placeholder {
+    font-family: 'Open Sans', 'FontAwesome', arial, sans;
+    font-size: .8rem;
+}
+
+
+label, p {
+    color: #444;
+}
+
+
+a {
+    transition: color 200ms ease-in-out;
+    -moz-transition: color 200ms ease-in-out;
+    -webkit-transition: color 200ms ease-in-out;
+    -o-transition: color 200ms ease-in-out;
+}
+
+
+.hand-write {
+    font-family: 'Pacifico', cursive !important;
+}
+
+
+.site-title-link {
+    color: #333;
+    &:hover {
+        color: #444;
+    }
+}
+
+
+.block-subscribe {
+
+    label {
+        font-weight: bold;
+    }
+
+}
+
+
+.shop-footer {
+
+    .block-title strong span,
+    .side-nav li a, label,
+    p, h1, h2, h3, h4, h5, h6, a, em {
+      color: #999;
+    }
+
+    a:hover {
+        color: #eee !important;
+    }
+
+}

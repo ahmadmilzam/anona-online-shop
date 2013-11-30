@@ -1,0 +1,11 @@
+header {
+  @include grid-row;
+
+  .logo  { @include grid-column($columns:3, $center:true); }
+  padding-bottom: em-calc(10px);
+
+}
+
+.logo {
+    margin-bottom: 1em;
+}

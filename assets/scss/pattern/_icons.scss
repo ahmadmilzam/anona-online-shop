@@ -1,0 +1,15 @@
+.fa-chevron-left,
+.fa-chevron-right {
+    margin: 4px;
+    padding: 3px;
+    cursor: pointer;
+
+    transition: color 300ms ease-in-out;
+    -moz-transition: color 300ms ease-in-out;
+    -webkit-transition: color 300ms ease-in-out;
+    -o-transition: color 300ms ease-in-out;
+}
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+    color: #AAA;
+}
