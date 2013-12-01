@@ -53,7 +53,7 @@
                 </div>
                 <div class="block-content">
                     <div class="row">
-                        <div class="large-12 columns">
+                        <div class="large-12 columns text-justify">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                 Aenean commodo ligula eget dolor. Aenean massa.

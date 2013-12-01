@@ -23,32 +23,20 @@ input:-moz-placeholder {
     font-size: .8rem;
 }
 
-
 label, p {
     color: #444;
 }
 
-
 a {
-    transition: color 200ms ease-in-out;
-    -moz-transition: color 200ms ease-in-out;
-    -webkit-transition: color 200ms ease-in-out;
-    -o-transition: color 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
 }
-
 
 .hand-write {
     font-family: 'Pacifico', cursive !important;
 }
-
-
-.site-title-link {
-    color: #333;
-    &:hover {
-        color: #444;
-    }
-}
-
 
 .block-subscribe {
 
@@ -57,7 +45,6 @@ a {
     }
 
 }
-
 
 .shop-footer {
 

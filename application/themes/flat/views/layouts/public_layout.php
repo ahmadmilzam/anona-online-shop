@@ -13,24 +13,31 @@
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     </head>
     <body>
+    <div class="off-canvas-wrap">
+        <div class="inner-wrap">
+            <!-- Head -->
+            <?php echo $this->template->load_view('partials/public_navbar'); ?>
+            <?php echo $this->template->load_view('partials/public_header'); ?>
+            <?php echo $this->template->load_view('partials/public_subnav'); ?>
+            <!-- //Head -->
 
-        <!-- Head -->
-        <?php echo $this->template->load_view('partials/public_navbar'); ?>
-        <?php echo $this->template->load_view('partials/public_header'); ?>
-        <?php echo $this->template->load_view('partials/public_subnav'); ?>
-        <!-- //Head -->
+            <section class="main-section">
+                <!-- Body -->
+                <?php echo $template['body']; ?>
+                <!-- //Body -->
+                <!-- Tail -->
+                <?php echo $this->template->load_view('partials/public_footer'); ?>
+                <!-- //Tail -->
+            </section>
 
-        <!-- Body -->
-        <?php echo $template['body']; ?>
-        <!-- //Body -->
+            <a class="exit-off-canvas"></a>
 
-        <!-- Tail -->
-        <?php echo $this->template->load_view('partials/public_footer'); ?>
-        <!-- //Tail -->
+        </div>
+    </div>
 
-        <!-- //load script -->
-        <?php $this->carabiner->display('main_js'); ?>
-        <?php $this->carabiner->display('local_js'); ?>
-        <!-- //load script -->
+    <!-- //load script -->
+    <?php $this->carabiner->display('main_js'); ?>
+    <?php $this->carabiner->display('local_js'); ?>
+    <!-- //load script -->
     </body>
 </html>

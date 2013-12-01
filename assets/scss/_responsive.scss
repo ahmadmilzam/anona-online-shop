@@ -3,6 +3,9 @@
     .login-link{
         margin-bottom: 1.2rem;
     }
+    .hand-write{
+        font-weight: 400 !important;
+    }
 }
 
 @media #{$medium-up} {
@@ -19,6 +22,12 @@
     }
     .login-link {
         padding-top: .9rem;
+    }
+    .navbar.sticky-menu {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        z-index: $z-index-xxxx;
     }
 }
 @media #{$medium-only} { }

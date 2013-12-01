@@ -72,10 +72,6 @@ input.input-text, textarea {
     background-color: #fbfbfb;
 }
 
-.bottom-edge-shadow {
-    @include box-shadow(0 8px 6px -6px #ccc);
-}
-
 .row.full {
     max-width: none;
 }

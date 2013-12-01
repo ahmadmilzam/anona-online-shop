@@ -1,4 +1,27 @@
 <!-- Navbar -->
+<nav class="tab-bar show-for-small-only">
+    <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+    </section>
+
+    <section class="middle tab-bar-section">
+        <a class="site-title-link"><h1 class="hand-write">Anona Shop</h1></a>
+    </section>
+</nav>
+<aside class="left-off-canvas-menu show-for-small-only">
+    <ul class="off-canvas-inline-list">
+        <li><a href="#"><i class="fa fa-home fa-lg"></i></a></li>
+        <li><a href="#"><i class="fa fa-user fa-lg"></i></a></li>
+        <li><a href="#"><i class="fa fa-shopping-cart fa-lg"></i></a></li>
+        <li><a href="#"><i class="fa fa-check fa-lg"></i></a></li>
+    </ul>
+    <ul class="off-canvas-list">
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Sports</a></li>
+    </ul>
+</aside>
 <nav class="top-bar hide-for-small">
     <div class="row">
         <div class="large-12 columns">
