@@ -5,6 +5,7 @@
     <div class="large-12 columns">
         <div class="left hide-for-small-only login-link">
             <a href="#">Login or Register</a>
+            <span>Page rendered in <strong>{elapsed_time}</strong> seconds</span>
         </div>
         <div class="right">
             <div class="row collapse">
